@@ -7,7 +7,7 @@ spring:
     gateway:
       routes:
       - id: CART-SERVICE
-        uri: lb//CART-SERVICE
+        uri: lb://CART-SERVICE
         predicates:
         - Path=/cart/**
           
