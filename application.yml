@@ -15,4 +15,4 @@ spring:
         predicates:
         - Path=/payment/**
           
-payURI: http://PAYMENT-SERVICE
+payURI: http://PAYMENT-SERVICE/payment
